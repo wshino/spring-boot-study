@@ -52,6 +52,8 @@ dependencies {
     compile("org.thymeleaf:thymeleaf-spring4")
     compile("nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect")
 
+    compile 'org.webjars:vue:0.11.0'
+
     testCompile("junit:junit")
 }
 
