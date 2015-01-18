@@ -39,7 +39,12 @@ dependencies {
     // tag::actuator[]
     compile("org.springframework.boot:spring-boot-starter-actuator")
     // end::actuator[]
-    // compile("org.springframework.boot:spring-boot-starter-data-jpa")
+    compile("com.googlecode.flyway:flyway-core:2.3.1")
+    compile("com.h2database:h2")
+
+    compile("org.springframework.boot:spring-boot-starter-data-jpa")
+
+    compile("org.lazyluke:log4jdbc-remix:0.2.7")
 
     testCompile("junit:junit")
 }
