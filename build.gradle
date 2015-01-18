@@ -27,6 +27,8 @@ jar {
 
 repositories {
     mavenCentral()
+    maven { url "http://repo.spring.io/snapshot" }
+    maven { url "http://repo.spring.io/milestone" }
 }
 
 dependencies {
@@ -45,6 +47,10 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-data-jpa")
 
     compile("org.lazyluke:log4jdbc-remix:0.2.7")
+
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.thymeleaf:thymeleaf-spring4")
+    compile("nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect")
 
     testCompile("junit:junit")
 }

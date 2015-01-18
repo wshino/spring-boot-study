@@ -1,4 +1,4 @@
-package hello;
+package hello.controller;
 
 import hello.domain.User;
 import hello.service.UserService;
